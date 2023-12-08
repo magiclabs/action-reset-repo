@@ -34,3 +34,5 @@ git checkout $RESET_BRANCH
 git reset --hard "origin/${BASE_BRANCH}"
 
 git push --force origin $RESET_BRANCH
+
+rm -rf _tmp
