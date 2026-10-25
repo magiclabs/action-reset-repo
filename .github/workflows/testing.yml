@@ -1,13 +1,13 @@
-name: Rest Dev Branch to Master
-on:
-  schedule:
-    - cron: "0 1 * * *"
-jobs:
-  reset:
-    name: Runner
-    runs-on: ubuntu-latest
-    steps:
-      - name: Reset dev branch to master
-        uses: nicksnell/action-reset-repo@master
-        with:
-          reset_branch: dev
+# name: Rest Dev Branch to Master
+# on:
+#   schedule:
+#     - cron: "0 1 * * *"
+# jobs:
+#   reset:
+#     name: Runner
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Reset dev branch to master
+#         uses: nicksnell/action-reset-repo@master
+#         with:
+#           reset_branch: dev
